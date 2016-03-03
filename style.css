@@ -1,0 +1,29 @@
+body {
+    background-color: #D1D1D1;
+}
+h1 {
+    color: orange;
+    text-align: center;
+}
+header  {
+    border-color: #FFFFFF;
+}
+header img  {
+    margin: 5px;
+    width: 50px;
+}
+p {
+    font-size: 20px;
+}
+#menu li {
+    display:inline;
+}
+#produktliste ul{
+  list-style: none;
+}
+#bilder  {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 50px;
+}
