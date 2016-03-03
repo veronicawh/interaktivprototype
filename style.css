@@ -9,8 +9,11 @@ body {
 h1 {
   color: black;
   font-weight: bold;
+  font-family: "Helvetica", sans-serif;
 }
+
 /*Header med hamburgermeny og logo*/
+
 #head {
   width: 100%;
   height: 70px;
@@ -21,8 +24,10 @@ h1 {
   width: 150px;
   padding: 6px;
 }
+
 /*Navigasjon i head*/
-nav{
+
+nav {
   float: right;
   padding: 10px;
 }
@@ -32,17 +37,25 @@ nav{
 #produktliste li {
   list-style-type: none;
 }
-#produktliste{
-  width: 100%;
+#produktliste, #tekst {
+  width: 97%;
+  margin: auto;
+}
+#produktliste {
   text-align: right;
+}
+#tekst {
+  text-align: left;
 }
 .bilder {
   width: 80px;
   float: left;
   padding: 10px;
 }
+
 /*Linjer i produktliste*/
-.linje{
+
+.linje {
   width: 100%;
   height: 130px;
   background-color: white;
