@@ -54,11 +54,11 @@ border-color: #B5B0B0;
 /*#produktliste li {
   list-style-type: none;
 }*/
-/*#produktliste,*/ #tekst {
+/*#produktliste,*/ .tekst {
   width: 97%;
   margin: auto;
 }
-#tekst {
+.tekst {
   text-align: left;
 }
 .bilder, .bilderm {
