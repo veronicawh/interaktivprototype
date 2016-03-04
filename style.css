@@ -45,6 +45,10 @@ border-width: medium;
 border-color: #B5B0B0;
 }
 
+.produktliste p{
+float: right;
+}
+
 /*.produktliste img{
   display: block;
 	margin: auto;
