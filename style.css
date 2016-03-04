@@ -61,10 +61,9 @@ float: right;
 /*#produktliste,*/ .tekst {
   width: 97%;
   margin: auto;
+    text-align: left;
 }
-.tekst {
-  text-align: left;
-}
+
 .bilder, .bilderm {
   width: 80px;
   float: left;
