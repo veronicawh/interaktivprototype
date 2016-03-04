@@ -65,7 +65,8 @@ nav {
   font-style: italic;
 }
 .huskeliste {
-  width: inherit;
+  width: 100px;
+  float: right;
 }
 
 /*#produktliste,*/
