@@ -34,14 +34,27 @@ nav {
 #menu li {
   display: inline;
 }
-#produktliste {
+
+.produktliste {
   text-align: right;
+  float: left;
+  width: 100%;
+padding: 19px;
+border-bottom-style: dotted;
+border-width: medium;
+border-color: #B5B0B0;
 }
 
-#produktliste li {
+/*.produktliste img{
+  display: block;
+	margin: auto;
+	max-width: 100%;
+}*/
+
+/*#produktliste li {
   list-style-type: none;
-}
-#produktliste, #tekst {
+}*/
+/*#produktliste,*/ #tekst {
   width: 97%;
   margin: auto;
 }
@@ -68,7 +81,6 @@ nav {
   border-bottom-style: dotted;
   border-width: medium;
   border-color: #B5B0B0;
-
 }
 /*Bilder i produkt.html*/
 .bilde-stor{
