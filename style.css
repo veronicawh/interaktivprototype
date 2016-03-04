@@ -6,7 +6,7 @@ body {
   background-color: #D1D1D1;
   display: block;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, button {
   color: black;
   font-weight: bold;
   font-family: "Helvetica", sans-serif;
@@ -67,7 +67,7 @@ nav {
 /*#produktliste,*/
 
 .tekst {
-  width: 97%;
+  width: 95%;
   margin: auto;
   text-align: left;
 }
@@ -109,9 +109,14 @@ button{
   margin-right: 8%;
   float: right;
   width: 150px;
-  height: 50px;
-  background-color: #;
-  font-weight: bold;
+  height: 40px;
+  background-color: #e65825;
+  font-size: 20px;
+  line-height: 30pt;
+}
+/*Kul hover effekt*/
+button:hover{
+  background-color: #f89f1d;
 }
 
 /*Media queries
