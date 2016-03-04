@@ -38,7 +38,7 @@ nav {
 .produktliste {
   text-align: right;
   float: left;
-  width: 100%;
+  width: 90%;
 padding: 19px;
 border-bottom-style: dotted;
 border-width: medium;
@@ -46,8 +46,8 @@ border-color: #B5B0B0;
 }
 
 .produktliste p{
-float: right;
-font-weight: bold;
+  float: right;
+  font-weight: bold;
 }
 
 /*.produktliste img{
