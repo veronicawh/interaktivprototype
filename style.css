@@ -52,6 +52,9 @@ nav {
   width: 45%;
 }
 
+.huskeliste{
+  float:left;
+}
 /*#produktliste,*/
 
 .tekst {
