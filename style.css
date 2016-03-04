@@ -6,10 +6,13 @@ body {
   background-color: #D1D1D1;
   display: block;
 }
-h1, h2, h3, h4, button {
+h1, h2, h3, button {
   color: black;
   font-weight: bold;
   font-family: "Helvetica", sans-serif;
+}
+h4 {
+  font-weight: normal;
 }
 
 /*Header med hamburgermeny og logo*/
@@ -35,7 +38,6 @@ nav {
   display: inline;
 }
 .produktliste {
-
   float: left;
   width: 96%;
   padding: 19px;
@@ -43,18 +45,24 @@ nav {
   border-width: medium;
   border-color: #B5B0B0;
 }
-/*.produktliste p*/ #infotekst {
+
+/*.produktliste p*/
+
+#infotekst {
   float: right;
   font-family: Helvetica;
   padding: 20px;
   padding-right: 280px;
-  font-size: 20px;
+  font-size: 26px;
   width: 45%;
 }
-
-.huskeliste{
-  float:left;
+#infotekst p {
+  font-style: italic;
 }
+.huskeliste {
+  width: inherit;
+}
+
 /*#produktliste,*/
 
 .tekst {
@@ -94,8 +102,10 @@ nav {
 .bilde-stor img {
   width: 100%;
 }
+
 /*Kjøp nå knapp*/
-button{
+
+button {
   margin-right: 8%;
   float: right;
   width: 150px;
@@ -104,8 +114,10 @@ button{
   font-size: 20px;
   line-height: 30pt;
 }
+
 /*Kul hover effekt*/
-button:hover{
+
+button:hover {
   background-color: #f89f1d;
 }
 
