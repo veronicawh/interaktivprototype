@@ -6,7 +6,7 @@ body {
   background-color: #D1D1D1;
   display: block;
 }
-h1 {
+h1, h2, h3, h4 {
   color: black;
   font-weight: bold;
   font-family: "Helvetica", sans-serif;
