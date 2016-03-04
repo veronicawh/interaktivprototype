@@ -45,7 +45,11 @@ nav {
 }
 .produktliste p {
   float: right;
-  font-weight: bold;
+  font-family: Helvetica;
+  padding: 20px;
+  text-align: left;
+  padding-right: 280px;
+  font-size: 20px;
 }
 
 /*.produktliste img{
