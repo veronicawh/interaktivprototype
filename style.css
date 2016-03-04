@@ -70,8 +70,18 @@ nav {
   border-color: #B5B0B0;
 
 }
+/*Bilder i produkt.html*/
+.bilde-stor{
+  width: 60%;
+  margin: auto;
+  padding-top: 30px;
+}
+.bilde-stor img{
+  width: 100%;
+}
+/*Media queries
 @media screen and (min-width: 480px) and (max-width: 600px) {
   body {
-    background-color: inherit;
+
   }
-}
+}*/
