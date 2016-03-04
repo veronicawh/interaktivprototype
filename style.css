@@ -96,10 +96,14 @@ nav {
 }
 /*Kjøp nå knapp*/
 button{
+  border: none;
+  color: white;
+  padding: 10px;
   margin-right: 8%;
+  margin-bottom: 8%;
   float: right;
   width: 150px;
-  height: 40px;
+  height: 55px;
   background-color: #e65825;
   font-size: 20px;
   line-height: 30pt;

@@ -5,8 +5,15 @@
   <title>Interaktiv prototype</title>
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
-
+<script>
+  $(document).ready(function () {
+    $("button").click(function () {
+      alert.("Denne funksjonen er ikke støttet enda");
+    });
+});
+</script>
 <body>
   <section id="head">
     <img id="logo" src="img/tv2sumo.png" alt="tv sumo logo">
@@ -33,9 +40,8 @@
     <p>Slim Fit Oxford Shirt</p>
     <p>Enkeltfargede skjorter - Navy</p>
     <p>Pris: 299,-</p>
+    <button>KJØP NÅ</button>
   </section>
-
-  <button>KJØP NÅ</button>
 
 </body>
 
