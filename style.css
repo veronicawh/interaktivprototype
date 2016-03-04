@@ -47,6 +47,7 @@ border-color: #B5B0B0;
 
 .produktliste p{
 float: right;
+font-weight: bold;
 }
 
 /*.produktliste img{
