@@ -92,13 +92,22 @@ nav {
 /*Bilder i produkt.html*/
 
 .bilde-stor {
-  width: 60%;
+  width: 50%;
   margin: auto;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .bilde-stor img {
   width: 100%;
+}
+/*Kjøp nå knapp*/
+button{
+  margin-right: 8%;
+  float: right;
+  width: 150px;
+  height: 50px;
+  background-color: #;
+  font-weight: bold;
 }
 
 /*Media queries
