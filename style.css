@@ -45,6 +45,9 @@ nav {
   float: left;
   width: 96%;
   padding: 19px;
+
+  height: 150px;
+  margin-top: 10px;
   border-bottom-style: dotted;
   border-width: medium;
   border-color: #B5B0B0;
@@ -53,33 +56,54 @@ nav {
 /*.produktliste p*/
 
 #infotekst {
-  float: right;
+  /*float: right;*/
   font-family: Helvetica;
   padding: 20px;
-  padding-right: 335px;
-  
-  font-size: 27px;
-  width: 45%;
+  /*padding-right: 335px;*/
+  font-size: 20px;
+  width: 110%;
 }
 #infotekst p {
   font-style: italic;
 }
-#kjopknapp, #huskeknapp {
+
+/*#kjopknapp, #huskeknapp {
   float: right;
 }
 #kjopknapp {
   margin-top: -10px;
   margin-right: 100px;
+
 }
-.kjop{
-width: 140%;
+.kjop, .huskeliste {
+  width: 140%;
 }
 #huskeknapp {
-  margin-right: -145px;
-  margin-top: -78px;
+  /*margin-right: -160px;
+  margin-top: -215px;*/
+
+
+/*  margin-right: 25%;
+margin-top: -65%;*/
+
+
+/*padding-right: 25%;
+}*/
+
+.knapper {
+  float: right;
+
+  width: 160px;
+
+  padding: 10px;
+padding-right: 50px;
+
+
+
 }
-.huskeliste{
-  width:140%;
+#bildeknapper {
+  margin-top: -55%;
+  margin-left: 10%;
 }
 
 /*#produktliste,*/
@@ -90,8 +114,7 @@ width: 140%;
   text-align: left;
 }
 .bilder, .bilderm {
-  width: 80px;
-  float: left;
+  width: 20%;
   border: solid 15px #FFF;
   border-radius: 6px;
 }
@@ -101,14 +124,15 @@ width: 140%;
 
 /*Linjer i produktliste*/
 
-.linje {
+
+/*.linje {
   width: 100%;
   height: 150px;
   margin-top: 10px;
   border-bottom-style: dotted;
   border-width: medium;
   border-color: #B5B0B0;
-}
+}*/
 
 /*Bilder i produkt.html*/
 
