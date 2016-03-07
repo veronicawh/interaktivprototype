@@ -67,14 +67,19 @@ nav {
   float: right;
 }
 #kjopknapp {
-  margin-top: -33px;
+  margin-top: -10px;
   margin-right: 100px;
+}
+.kjop{
+width: 140%;
 }
 #huskeknapp {
-  margin-right: 100px;
+  margin-right: -145px;
   margin-top: -78px;
 }
-
+.huskeliste{
+  width:140%;
+}
 
 /*#produktliste,*/
 
