@@ -56,8 +56,9 @@ nav {
   float: right;
   font-family: Helvetica;
   padding: 20px;
-  padding-right: 280px;
-  font-size: 26px;
+  padding-right: 335px;
+  
+  font-size: 27px;
   width: 45%;
 }
 #infotekst p {
