@@ -22,8 +22,7 @@ a {
 /*Header med hamburgermeny og logo*/
 
 #head {
-  width: 100%;
-  height: 70px;
+  width: 100vw;
   background-color: white;
 }
 #logo {
@@ -157,9 +156,39 @@ button:hover {
   background-color: #f89f1d;
 }
 
-/*Media queries
-@media screen and (min-width: 480px) and (max-width: 600px) {
-  body {
+/*Fikser view på prototypen som visast på produksjonsrapporten*/
+@media screen and (min-width: 186px) {
+  #logo{
+    width: 50px;
+  }
+  .produktliste{
+    height: auto;
+    width: 100vw;
+    padding: 5% 0 0 0;
 
   }
-}*/
+  #infotekst, p{
+    font-size: 0.8em;
+  }
+  h1{
+    font-size: 0.9em;
+  }
+  .knapper{
+    width: 60px;
+  }
+  .bilder, .bilderm {
+    border: solid 5px #FFF;
+    border-radius: 6px;
+  }
+  button{
+    width: 60px;
+    height: 30px;
+    font-size: 0.7em;
+  }
+  .huskeliste{
+    width: 60px;
+  }
+  .menu{
+    font-size: 0.8em;
+  }
+}
