@@ -128,13 +128,15 @@ margin-top: -65%;*/
 
 /*Bilder i produkt.html*/
 .bilde-stor {
-  width: 50%;
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 100vw;
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .bilde-stor img {
-  width: 100%;
+  width: 50%;
+  padding: 2px 0 2px 0;
 }
 
 /*Kjøp nå knapp*/
@@ -163,7 +165,7 @@ button:hover {
   }
   .produktliste{
     height: auto;
-    width: 100vw;
+    width: 99vw;
     padding: 5% 0 0 0;
 
   }
@@ -174,21 +176,32 @@ button:hover {
     font-size: 0.9em;
   }
   .knapper{
-    width: 60px;
+    padding-top: 5%;
+    float: left;
+    margin-left: 41px;
+    width: 70px;
   }
   .bilder, .bilderm {
     border: solid 5px #FFF;
     border-radius: 6px;
+    margin-left: 3%;
   }
   button{
-    width: 60px;
+    width: 70px;
     height: 30px;
     font-size: 0.7em;
+    margin: 0px;
   }
   .huskeliste{
-    width: 60px;
+    width: 70px;
   }
   .menu{
+    font-size: 0.8em;
+  }
+  .tekst h2, .tekst p{
+    font-size: 0.7em;
+  }
+  a{
     font-size: 0.8em;
   }
 }
