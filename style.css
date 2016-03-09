@@ -37,9 +37,10 @@ nav {
   float: right;
   padding: 10px;
 }
-#menu li {
+/*#meny li {
   display: inline;
-}
+}*/
+
 .produktliste {
   float: left;
   width: 90%;
@@ -159,25 +160,24 @@ button:hover {
 }
 
 /*Fikser view på prototypen som visast på produksjonsrapporten*/
-@media screen and (min-width: 186px) and (max-width: 186px) {
-  #logo{
+@media only screen and (min-width: 186px) and (max-width: 186px) {
+  #logo {
     width: 70px;
     padding: 2px;
     margin: 6px;
   }
-  .produktliste{
+  .produktliste {
     height: auto;
     width: 99vw;
     padding: 5% 0 0 0;
-
   }
-  #infotekst, p{
+  #infotekst, p {
     font-size: 0.8em;
   }
-  h1{
+  h1 {
     font-size: 0.9em;
   }
-  .knapper{
+  .knapper {
     padding-top: 5%;
     float: left;
     margin-left: 41px;
@@ -188,22 +188,22 @@ button:hover {
     border-radius: 6px;
     margin-left: 3%;
   }
-  button{
+  button {
     width: 70px;
     height: 30px;
     font-size: 0.7em;
     margin: 0px;
   }
-  .huskeliste{
+  .huskeliste {
     width: 70px;
   }
-  .menu{
+  .menu {
     font-size: 0.8em;
   }
-  .tekst h2, .tekst p{
+  .tekst h2, .tekst p {
     font-size: 0.7em;
   }
-  a{
+  a {
     font-size: 0.8em;
   }
 }
