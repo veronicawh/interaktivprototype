@@ -157,7 +157,7 @@ button:hover {
 }
 
 /*Fikser view på prototypen som visast på produksjonsrapporten*/
-@media screen and (min-width: 186px) {
+@media screen and (min-width: 186px) and (max-width: 186px) {
   #logo{
     width: 50px;
   }
