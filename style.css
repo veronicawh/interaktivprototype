@@ -50,7 +50,7 @@ a {
 
 }
 .onclick-menu:before {
-  content: "meny";
+  content: "Meny";
 }
 .onclick-menu:focus {
     /* clicking on label should toggle the menu */
@@ -83,7 +83,7 @@ li{
   float: left;
   width: 90%;
   padding: 19px;
-  height: 130px;
+  height: 135px;
   margin-top: 10px;
   border-bottom-style: dotted;
   border-width: medium;
