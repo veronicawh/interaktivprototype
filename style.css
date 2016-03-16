@@ -68,7 +68,7 @@ a {
 }
 .onclick-menu-content {
     position: absolute;
-    z-index: 1;
+    z-index: 5;
 
     /* use opacity to fake immediate toggle */
     opacity: 0;
