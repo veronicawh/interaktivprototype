@@ -11,35 +11,28 @@
 </head>
 
 <script>
-//funksjon for å vise at ting blir lagt til i produktlista
-$(document).ready(function(){
-  $("#detskjer").hide();
+  //funksjon for å vise at ting blir lagt til i produktlista
+  $(document).ready(function () {
+    $("#detskjer").hide();
 
-
-  $("#før").click( function(){
-     $("#før").hide();
-     $("#detskjer").show();
-   });
-});
-
-
-
+    $("#før").click(function () {
+      $("#før").hide();
+      $("#detskjer").show();
+    });
+  });
 </script>
 
 <body>
   <section id="head">
     <img id="logo" src="img/tv2sumo.png" alt="tv sumo logo">
 
-
     <nav>
       <ul id="meny">
-            <li>MENY</li>
-          </ul>
-      </nav>
+        <li>MENY</li>
+      </ul>
+    </nav>
 
-
-
-  <!--  <nav>
+    <!--  <nav>
 
   <ul id="meny">
 
@@ -51,26 +44,23 @@ $(document).ready(function(){
     <p>Senkveld sesong 26, episode 25</p>
   </section>
 
-      ​<section class="tekst">
-        <h1>Produktliste</h1>
-        <p>Senkveld sesong 26, episode 25</p>
-      </section>
-
-      <section class="produktliste">
-        <img class="bilder" src="img/skjorte_blaa.jpg" alt="Blå skjorte">
-        <section id="infotekst">
-          <a href="produkt.html">
-            <h4>
-              <strong>NLY MAN:</strong>
-              Slim Fit Oxford Shirt</h4>
-          </a>
-          <p>Pris: 299 kr</p>
-        </section>
+  <section class="produktliste">
+    <img class="bilder" src="img/skjorte_blaa.jpg" alt="Blå skjorte">
+    <section id="infotekst">
+      <a href="produkt.html">
+        <h4>
+          <strong>NLY MAN:</strong>
+          Slim Fit Oxford Shirt</h4>
+      </a>
+      <p>Pris: 299 kr</p>
+    </section>
 
     <section id="bildeknapper">
       <section class="knapper">
         <!--<img class="kjop" src="img/kjøpnå.png" alt="kjøpnå">-->
-        <a href="produkt.html"><button>KJØP NÅ</button></a>
+        <a href="produkt.html">
+          <button>KJØP NÅ</button>
+        </a>
         <img class="huskeliste" id="før" src="img/huskeliste.png" alt="huskeliste">
         <img class="huskeliste" id="detskjer" src="img/huskeliste-detskjer.png" alt="detskjer">
       </section>
