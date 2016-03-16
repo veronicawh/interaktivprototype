@@ -75,6 +75,9 @@ font-size: 150%;
     visibility: hidden;
     transition: visibility 0.5s;
 }
+li{
+  list-style-type:none;
+}
 
 .produktliste {
   float: left;

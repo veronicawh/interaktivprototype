@@ -37,11 +37,17 @@ $(document).ready(function () {
   <section id="head">
     <img id="logo" src="img/tv2sumo.png" alt="tv sumo logo">
 
-    <nav>
-      <ul id="menu">
-        <li>MENY</li>
+
+    <div tabindex="0" class="onclick-menu">
+      <ul class="onclick-menu-content">
+        <li>
+          <button onclick="alert('Funksjonen er ikke støttet i denne versjonen')">Huskeliste</button>
+        </li>
+        <li>
+          <button onclick="alert('funksjonen er ikke støttet i denne versjonen')">Min Sumo</button>
+        </li>
       </ul>
-    </nav>
+    </div>
 
   </section>
 
