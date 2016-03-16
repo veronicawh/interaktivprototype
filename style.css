@@ -154,7 +154,10 @@ button {
   background-color: #e65825;
   font-size: 20px;
 }
-
+/*fikser kjøpknapp på produkt.html*/
+#kjopknappprodukt{
+  margin-right: 5%;
+}
 /*Kul hover effekt*/
 button:hover {
   background-color: #f89f1d;
