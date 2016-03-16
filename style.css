@@ -50,7 +50,9 @@ font-size: 150%;
 
 }
 .onclick-menu:before {
-    content: "Meny";
+    background-image: url('../img/hamburger.png');
+    height: 100px;
+    width: 100px;
 }
 .onclick-menu:focus {
     /* clicking on label should toggle the menu */
