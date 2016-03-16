@@ -43,16 +43,20 @@ a {
 }*/
 
 .onclick-menu {
-float:right;
-padding-top: 20px;
-padding-right: 80px;
-font-size: 150%;
+  float:right;
+  padding-top: 20px;
+  padding-right: 80px;
+
+  display: inline-block;
+  width: 1.25em;
+  height: 0.8em;
+  margin-right: 0.3em;
+  border-top: 0.2em solid #fff;
+  border-bottom: 0.2em solid #fff;
 
 }
 .onclick-menu:before {
-    background-image: url('../img/hamburger.png');
-    height: 100px;
-    width: 100px;
+  content: "meny";
 }
 .onclick-menu:focus {
     /* clicking on label should toggle the menu */
