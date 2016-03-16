@@ -33,13 +33,47 @@ a {
 
 /*Navigasjon i head*/
 
-nav {
+/*nav {
   float: right;
   padding: 10px;
 }
 
 #meny li {
   display: inline;
+}*/
+
+.onclick-menu {
+float:right;
+padding-top: 20px;
+padding-right: 80px;
+font-size: 150%;
+
+}
+.onclick-menu:before {
+    content: "Meny";
+}
+.onclick-menu:focus {
+    /* clicking on label should toggle the menu */
+    pointer-events: none;
+
+}
+.onclick-menu:focus .onclick-menu-content {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 5;
+
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
 }
 
 .produktliste {
