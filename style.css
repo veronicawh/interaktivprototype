@@ -38,9 +38,9 @@ nav {
   padding: 10px;
 }
 
-/*#meny li {
+#meny li {
   display: inline;
-}*/
+}
 
 .produktliste {
   float: left;
