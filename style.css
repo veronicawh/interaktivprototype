@@ -22,7 +22,7 @@ a {
 /*Header med hamburgermeny og logo*/
 
 #head {
-  width: 100vw;
+  /*width: 100vw;*/
   background-color: white;
 }
 #logo {
@@ -32,53 +32,46 @@ a {
 }
 
 /*Navigasjon i head*/
-
 /*nav {
   float: right;
   padding: 10px;
 }
-
 #meny li {
   display: inline;
 }*/
 
 .onclick-menu {
-  float:right;
+  float: right;
   padding-top: 20px;
   padding-right: 80px;
   font-size: 150%;
-
 }
 .onclick-menu:before {
   content: "Meny";
+  background-color: red;
 }
 .onclick-menu:focus {
-    /* clicking on label should toggle the menu */
-    pointer-events: none;
-
+  /* clicking on label should toggle the menu */
+  pointer-events: none;
 }
 .onclick-menu:focus .onclick-menu-content {
-    /*  opacity is 1 in opened state (see below) */
-    opacity: 1;
-    visibility: visible;
-
-    /* don't let pointer-events affect descendant elements */
-    pointer-events: auto;
-
+  /*  opacity is 1 in opened state (see below) */
+  opacity: 1;
+  visibility: visible;
+  /* don't let pointer-events affect descendant elements */
+  pointer-events: auto;
 }
 .onclick-menu-content {
-    position: absolute;
-    z-index: 5;
-
-    /* use opacity to fake immediate toggle */
-    opacity: 0;
-    visibility: hidden;
-    transition: visibility 0.5s;
+  position: absolute;
+  z-index: 5;
+  /* use opacity to fake immediate toggle */
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.5s;
 }
-li{
-  list-style-type:none;
+li {
+  list-style-type: none;
 }
-
 .produktliste {
   float: left;
   width: 90%;
@@ -177,17 +170,18 @@ margin-top: -65%;*/
   width: 50%;
   padding: 2px 0 2px 0;
 }
+
 /*fikser bildegalleri med piler*/
-#pil-left, #pil-right{
+#pil-left, #pil-right {
   margin-top: 26%;
   padding: 2%;
   height: 30px;
   width: 30px;
 }
-#pil-right{
+#pil-right {
   float: left;
 }
-#pil-left{
+#pil-left {
   float: right;
 }
 
@@ -204,10 +198,12 @@ button {
   background-color: #e65825;
   font-size: 20px;
 }
+
 /*fikser kjøpknapp på produkt.html*/
-#kjopknappprodukt{
+#kjopknappprodukt {
   margin-right: 5%;
 }
+
 /*Kul hover effekt*/
 button:hover {
   background-color: #f89f1d;
