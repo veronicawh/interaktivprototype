@@ -10,7 +10,7 @@
 </head>
 <script>
   $(document).ready(function () {
-    $("button").click(function () {
+    $("#kjop").click(function () {
       alert("Denne funksjonen er ikke støttet enda. Prøv igjen senere");
     });
 });
@@ -44,6 +44,9 @@ $(document).ready(function () {
           <button onclick="alert('Funksjonen er ikke støttet i denne versjonen')">Huskeliste</button>
         </li>
         <li>
+          <button href="index.html">Produktliste</button>
+        </li>
+        <li>
           <button onclick="alert('funksjonen er ikke støttet i denne versjonen')">Min Sumo</button>
         </li>
       </ul>
@@ -69,7 +72,7 @@ $(document).ready(function () {
     <p>Enkeltfargede skjorter - Navy</p>
     <p>Pris: 299,-</p>
     <a href="index.html">Tilbake</a>
-    <button id="kjopknappprodukt">KJØP NÅ</button>
+    <button id="#kjop" class="kjopknappprodukt">KJØP NÅ</button>
   </section>
 
 </body>
