@@ -7,8 +7,15 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  
 </head>
+<script>
+$(document).ready(function(){
+  $(".huskeliste").click(function(){
+       $(".huskeliste").append("Lagt til i din produktliste!");
+   });
+)};
+
+</script>
 
 <body>
   <section id="head">
@@ -40,7 +47,7 @@
       <section class="knapper">
         <!--<img class="kjop" src="img/kjøpnå.png" alt="kjøpnå">-->
         <a href="produkt.html"><button>KJØP NÅ</button></a>
-        <a href="produkt.html"><img class="huskeliste" src="img/huskeliste.png" alt="huskeliste"></a>
+        <img class="huskeliste" src="img/huskeliste.png" alt="huskeliste">
       </section>
     </section>
   </section>
