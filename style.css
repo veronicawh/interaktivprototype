@@ -140,6 +140,20 @@ margin-top: -65%;*/
   width: 50%;
   padding: 2px 0 2px 0;
 }
+/*fikser bildegalleri med piler*/
+#pil-left, #pil-right{
+  margin-top: 26%;
+  padding: 2%;
+  height: 30px;
+  width: 30px;
+  background-color: black;
+}
+#pil-right{
+  float: left;
+}
+#pil-left{
+  float: right;
+}
 
 /*Kjøp nå knapp*/
 button {

@@ -14,6 +14,24 @@
       alert("Denne funksjonen er ikke støttet enda. Prøv igjen senere");
     });
 });
+
+//pil til venstre
+$(document).ready(function () {
+  $("#2").hide();
+  $("#pil-left").click(function () {
+    $("#1").hide();
+    $("#2").show();
+  });
+});
+
+//pil til høgre
+$(document).ready(function () {
+  $("#pil-right").click(function () {
+    $("#1").show();
+    $("#2").hide();
+  });
+});
+
 </script>
 <body>
   <section id="head">
@@ -33,7 +51,10 @@
   </section>
 
   <section class="bilde-stor">
-    <img alt="produktbilde av produkt" src="img/skjorte_blaa.jpg">
+    <img id="pil-left" src="img/pil-left.png">
+    <img id="pil-right" src="img/pil-right.png">
+    <img id="1" src="img/skjorte_blaa.jpg" alt="produktbilde av produkt 1">
+    <img id="2" src="img/skjorte_blaa_close.jpg" alt="produktbilde av produkt 2">
   </section>
 
   <section class="tekst">
