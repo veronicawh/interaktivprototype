@@ -19,7 +19,6 @@ a {
   color: black;
 }
 
-/*Header med hamburgermeny og logo*/
 
 #head {
   /*width: 100vw;*/
@@ -38,7 +37,7 @@ a {
 }
 #meny li {
   display: inline;
-}*/
+}
 
 .onclick-menu {
   float: right;
@@ -51,27 +50,85 @@ a {
   background-color: red;
 }
 .onclick-menu:focus {
-  /* clicking on label should toggle the menu */
+  /* clicking on label should toggle the menu
   pointer-events: none;
 }
 .onclick-menu:focus .onclick-menu-content {
-  /*  opacity is 1 in opened state (see below) */
+   opacity is 1 in opened state (see below)
   opacity: 1;
   visibility: visible;
-  /* don't let pointer-events affect descendant elements */
+  /* don't let pointer-events affect descendant elements
   pointer-events: auto;
 }
 .onclick-menu-content {
   position: absolute;
   z-index: 5;
-  /* use opacity to fake immediate toggle */
+  /* use opacity to fake immediate toggle
   opacity: 0;
   visibility: hidden;
   transition: visibility 0.5s;
 }
 li {
   list-style-type: none;
+}*/
+
+/*Fin hamburger*/
+#hamburger-nav span:nth-child(1) {
+  top: -1%;
 }
+#hamburger-nav span:nth-child(3) {
+  bottom: -10px;
+}
+/*Global for span hamburger*/
+#hamburger-nav span{
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: black;
+  position: absolute;
+  display: block;
+  content: "";
+}
+/* Styling for the navigation when viewed on mobile. */
+nav ul.mobile-nav {
+  display: block;
+  width: 100%;
+  background: rgba(1, 1, 1, 0.4);
+  border-radius: 5px;
+}
+
+nav ul.mobile-nav li {
+  display: block;
+  margin-right: 100px;
+  width: 100%;
+}
+
+nav ul.mobile-nav li a {
+  color: white;
+}
+
+nav ul.mobile-nav li a.active {
+  border-bottom: none;
+  color: #83B1B0;
+}
+
+/*Tester om denne fungerer*/
+#hamburger-nav{
+  position: absolute;
+  right: 10%;
+  top: 20px;
+  cursor: pointer;
+  padding: 10px 35px 5px 10px;
+  display: none;
+}
+.show{
+  display: block !important;
+}
+header a{
+  border-bottom: 0;
+}
+
 .produktliste {
   float: left;
   width: 90%;
