@@ -236,4 +236,20 @@ button:hover {
   a {
     font-size: 0.8em;
   }
+  #hamburger-nav{
+    top: 10px;
+    right: 5%;
+  }
+  #hamburger-nav span{
+    height: 3px;
+    width: 20px;
+  }
+  /*Fin hamburger første span*/
+  #hamburger-nav span:nth-child(1) {
+    top: 3.5px;
+  }
+  /*Fin hamburger tredje span*/
+  #hamburger-nav span:nth-child(3) {
+    bottom: -4px;
+  }
 }
