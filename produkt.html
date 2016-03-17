@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <head>
   <meta charset="UTF-8">
   <title>Interaktiv prototype</title>
@@ -7,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="js/javascript.js"></script>
 </head>
+
 <script>
   $(document).ready(function () {
     $(".kjopknappprodukt").click(function () {
@@ -32,6 +31,15 @@ $(document).ready(function () {
     $("#2").hide();
   });
 });
+//meny fiksing
+$(document).ready(function () {
+  $(".container").hide();
+
+  $("#hamburger-nav").click(function () {
+    $(".container").toggle();
+  });
+});
+
 
 </script>
 <body>
@@ -51,21 +59,6 @@ $(document).ready(function () {
       <span></span>
       <span></span>
     </a>
-
-    <!--
-    <div tabindex="0" class="onclick-menu">
-      <ul class="onclick-menu-content">
-        <li>
-          <button onclick="alert('Funksjonen er ikke støttet i denne versjonen')">Huskeliste</button>
-        </li>
-        <li>
-            <a href="index.html"><button>Produktliste</button></a>
-        </li>
-        <li>
-          <button onclick="alert('funksjonen er ikke støttet i denne versjonen')">Min Sumo</button>
-        </li>
-      </ul>
-    </div>-->
 
   </section>
 

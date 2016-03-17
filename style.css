@@ -19,7 +19,6 @@ a {
   color: black;
 }
 
-
 #head {
   /*width: 100vw;*/
   background-color: white;
@@ -30,52 +29,11 @@ a {
   padding: 6px;
 }
 
-/*Navigasjon i head*/
-/*nav {
-  float: right;
-  padding: 10px;
-}
-#meny li {
-  display: inline;
-}
-
-.onclick-menu {
-  float: right;
-  padding-top: 20px;
-  padding-right: 80px;
-  font-size: 150%;
-}
-.onclick-menu:before {
-  content: "Meny";
-  background-color: red;
-}
-.onclick-menu:focus {
-  /* clicking on label should toggle the menu
-  pointer-events: none;
-}
-.onclick-menu:focus .onclick-menu-content {
-   opacity is 1 in opened state (see below)
-  opacity: 1;
-  visibility: visible;
-  /* don't let pointer-events affect descendant elements
-  pointer-events: auto;
-}
-.onclick-menu-content {
-  position: absolute;
-  z-index: 5;
-  /* use opacity to fake immediate toggle
-  opacity: 0;
-  visibility: hidden;
-  transition: visibility 0.5s;
-}
-li {
-  list-style-type: none;
-}*/
-
-/*Fin hamburger*/
+/*Fin hamburger første span*/
 #hamburger-nav span:nth-child(1) {
   top: -1%;
 }
+/*Fin hamburger tredje span*/
 #hamburger-nav span:nth-child(3) {
   bottom: -10px;
 }
@@ -92,6 +50,7 @@ li {
 }
 /* Styling for the navigation when viewed on mobile. */
 nav ul.mobile-nav {
+  text-align: center;
   display: block;
   width: 100%;
   background: rgba(1, 1, 1, 0.4);
@@ -110,7 +69,7 @@ nav ul.mobile-nav li a {
 
 nav ul.mobile-nav li a.active {
   border-bottom: none;
-  color: #83B1B0;
+  color: white;
 }
 
 /*Tester om denne fungerer*/
@@ -128,7 +87,6 @@ nav ul.mobile-nav li a.active {
 header a{
   border-bottom: 0;
 }
-
 .produktliste {
   float: left;
   width: 90%;
@@ -141,11 +99,8 @@ header a{
 }
 
 /*.produktliste p*/
-
 #infotekst {
-  /*float: right;*/
   font-family: Helvetica;
-  /*padding-right: 335px;*/
   padding-left: 38%;
   font-size: 15px;
   width: 63%;
@@ -156,27 +111,6 @@ header a{
 #infotekst p {
   font-style: italic;
 }
-
-/*#kjopknapp, #huskeknapp {
-  float: right;
-}
-#kjopknapp {
-  margin-top: -10px;
-  margin-right: 100px;
-
-}
-.kjop, .huskeliste {
-  width: 140%;
-}
-#huskeknapp {
-  /*margin-right: -160px;
-  margin-top: -215px;*/
-
-/*  margin-right: 25%;
-margin-top: -65%;*/
-
-/*padding-right: 25%;
-}*/
 .knapper {
   float: right;
   width: 160px;
@@ -203,17 +137,6 @@ margin-top: -65%;*/
 .bilderm {
   margin-top: 11px;
 }
-
-/*Linjer i produktliste*/
-
-/*.linje {
-  width: 100%;
-  height: 150px;
-  margin-top: 10px;
-  border-bottom-style: dotted;
-  border-width: medium;
-  border-color: #B5B0B0;
-}*/
 
 /*Bilder i produkt.html*/
 .bilde-stor {
