@@ -36,6 +36,23 @@
   });
 
 
+  //funksjon for å vise at ting blir lagt til i produktlista
+  $(document).ready(function () {
+    $("#detskjer3").hide();
+    $("#lommetorkle").hide();
+
+    $("#før3").click(function () {
+      $("#før3").hide();
+      $("#detskjer3").fadeIn();
+    });
+  });
+
+  $(document).ready(function () {
+    $("#lommetorkle").show(40000);
+  });
+
+
+
   //meny fiksing
   $(document).ready(function () {
     $(".container").hide();
