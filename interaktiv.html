@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="js/cookie.js"></script>
 
 </head>
 
@@ -45,6 +46,17 @@
       $(".container").toggle();
     });
   });
+
+//fikser å vise aurora heile tida i ein session
+  $(document).ready(function() {
+    if ($.cookie('noShowWelcome')) $('#aurora').hide();
+    else {
+        $("#close-welcome").click(function() {
+            $("#aurora").hide();
+            $.cookie('noShowWelcome', true);
+        });
+    }
+});
 
 
 </script>
