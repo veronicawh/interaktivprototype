@@ -14,6 +14,7 @@
   $(document).ready(function () {
     $("#detskjer1").hide();
 
+
     $("#før1").click(function () {
       $("#før1").hide();
       $("#detskjer1").fadeIn();
@@ -23,7 +24,6 @@
   //funksjon for å vise at ting blir lagt til i produktlista
   $(document).ready(function () {
     $("#detskjer2").hide();
-    $("#aurora").hide();
 
     $("#før2").click(function () {
       $("#før2").hide();
@@ -32,23 +32,23 @@
   });
 
   $(document).ready(function () {
-    $("#aurora").show(20000);
+    $("#aurora").hide();
+    $("#aurora").delay().show(20000);
   });
 
+  $(document).ready(function () {
+    $("#lommetorkle").hide();
+    $("#lommetorkle").show(40000).delay();
+  });
 
   //funksjon for å vise at ting blir lagt til i produktlista
   $(document).ready(function () {
     $("#detskjer3").hide();
-    $("#lommetorkle").hide();
 
     $("#før3").click(function () {
       $("#før3").hide();
       $("#detskjer3").fadeIn();
     });
-  });
-
-  $(document).ready(function () {
-    $("#lommetorkle").show(40000);
   });
 
 
@@ -161,51 +161,5 @@
 </section>
 </section>
 
-      <!--  <section id="kjopknapp">
-      <img class="kjop" src="img/kjøpnå.png" alt="kjøpnå">
-    </section>
-
-    <section id="huskeknapp">
-      <img class="huskeliste" src="img/huskeliste.png" alt="huskeliste">
-    </section>
-  </section>
-
-  <section class="produktliste">
-    <img class="bilderm" src="img/aurora_album2.jpg" alt="Aurora">
-    <section id="infotekst">
-      <h4>
-        <strong>Aurora:</strong>
-        Running With The Wolves</h4>
-      <p>Pris: 35 kr</p>
-    </section>
-
-    <!-Satt kjøpknapp og huskelisteknapp i egne seksjoner innenfor seksjonen produktliste slik at de kan plasseres likt innen hver av produktlistene-->
-      <!--  <section id="kjopknapp">
-      <img class="kjop" src="img/kjøpnå.png" alt="kjøpnå">
-    </section>
-
-    <section id="huskeknapp">
-      <img class="huskeliste" src="img/huskeliste.png" alt="huskeliste">
-    </section>
-  </section>
-
-  <section class="produktliste">
-    <img class="bilder" src="img/skjorte_blaa.jpg" alt="Skjorte blå">
-    <section id="infotekst">
-      <h4>
-        <strong>NLY MAN:</strong>
-        Slim Fit Oxford Shirt
-      </h4>
-      <p>
-        Pris: 299 kr</p>
-    </section>
-    <section id="kjopknapp">
-      <img class="kjop" src="img/kjøpnå.png" alt="kjøpnå">
-    </section>
-
-    <section id="huskeknapp">
-      <img class="huskeliste" src="img/huskeliste.png" alt="huskeliste">
-    </section>
-  </section>  -->
     </body>
   </html>
