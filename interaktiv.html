@@ -3,22 +3,39 @@
   <meta charset="UTF-8">
   <title>Interaktiv prototype</title>
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 </head>
 
 <script>
+
   //funksjon for å vise at ting blir lagt til i produktlista
   $(document).ready(function () {
-    $("#detskjer").hide();
+    $("#detskjer1").hide();
 
-    $("#før").click(function () {
-      $("#før").hide();
-      $("#detskjer").fadeIn();
+    $("#før1").click(function () {
+      $("#før1").hide();
+      $("#detskjer1").fadeIn();
     });
   });
+
+  //funksjon for å vise at ting blir lagt til i produktlista
+  $(document).ready(function () {
+    $("#detskjer2").hide();
+    $("#aurora").hide();
+
+    $("#før2").click(function () {
+      $("#før2").hide();
+      $("#detskjer2").fadeIn();
+    });
+  });
+
+  $(document).ready(function () {
+    $("#aurora").show(20000);
+  });
+
 
   //meny fiksing
   $(document).ready(function () {
@@ -38,7 +55,7 @@
 <!--Hamburgermeny -->
 <nav class="container">
   <ul class="mobile-nav">
-    <li><a href="index.html" target="_self" class="active">Hjem</a></li>
+    <li><a href="interaktiv.html" target="_self" class="active">Hjem</a></li>
     <li><a href="produkt.html" target="_self" class="active">Produktliste</a></li>
   </ul>
 </nav>
@@ -56,6 +73,7 @@
     <p>Senkveld sesong 26, episode 25</p>
   </section>
 
+<section id="skjorte">
   <section class="produktliste">
     <img class="bilder" src="img/skjorte_blaa.jpg" alt="Blå skjorte">
     <section id="infotekst">
@@ -73,9 +91,42 @@
         <a href="produkt.html">
           <button>KJØP NÅ</button>
         </a>
-        <img class="huskeliste" id="før" src="img/huskeliste.png" alt="huskeliste">
-        <img class="huskeliste" id="detskjer" src="img/huskeliste-detskjer.png" alt="detskjer">
+        <img class="huskeliste" id="før1" src="img/huskeliste.png" alt="huskeliste">
+        <img class="huskeliste" id="detskjer1" src="img/huskeliste-detskjer.png" alt="detskjer">
       </section>
+</section>
+</section>
+</section>
+
+
+
+<section id="aurora">
+  <section class="produktliste">
+    <img class="bilder" src="img/aurora_album.jpg" alt="Aurora">
+    <section id="infotekst">
+      <a href="produkt-aurora.html">
+        <h4><strong>Aurora:</strong>
+          Running With The Wolves</h4></a>
+          <p>Pris: 35 kr</p>
+    </section>
+
+    <section id="bildeknapper">
+      <section class="knapper">
+        <!--<img class="kjop" src="img/kjøpnå.png" alt="kjøpnå">-->
+        <a href="produkt.html">
+          <button>KJØP NÅ</button>
+        </a>
+        <img class="huskeliste" id="før2" src="img/huskeliste.png" alt="huskeliste">
+        <img class="huskeliste" id="detskjer2" src="img/huskeliste-detskjer.png" alt="detskjer">
+      </section>
+</section>
+</section>
+</section>
+
+
+
+
+
 
       <!--  <section id="kjopknapp">
       <img class="kjop" src="img/kjøpnå.png" alt="kjøpnå">
