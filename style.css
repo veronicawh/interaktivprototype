@@ -98,6 +98,10 @@ header a{
   border-color: #B5B0B0;
 }
 
+#aurora .produktliste {
+      padding-top: 27px;
+  }
+
 /*.produktliste p*/
 #infotekst {
   font-family: Helvetica;
@@ -111,6 +115,7 @@ header a{
 #infotekst p {
   font-style: italic;
 }
+
 .knapper {
   float: right;
   width: 160px;
