@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Interaktiv prototype</title>
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<script>
+  $(document).ready(function () {
+    $(".kjopknappprodukt").click(function () {
+      alert("Denne funksjonen er ikke støttet enda. Prøv igjen senere");
+    });
+});
+
+//pil til venstre
+$(document).ready(function () {
+  $("#2").hide();
+  $("#pil-left").click(function () {
+    $("#1").hide();
+    $("#2").show();
+  });
+});
+
+//pil til høgre
+$(document).ready(function () {
+  $("#pil-right").click(function () {
+    $("#1").show();
+    $("#2").hide();
+  });
+});
+//meny fiksing
+$(document).ready(function () {
+  $(".container").hide();
+
+  $("#hamburger-nav").click(function () {
+    $(".container").toggle();
+  });
+});
+
+
+</script>
+<body>
+  <section id="head">
+    <img id="logo" src="img/tv2sumo.png" alt="tv sumo logo">
+
+    <!--Hamburgermeny -->
+    <nav class="container">
+    <ul class="mobile-nav">
+        <li><a href="interaktiv.html" target="_self" class="active">Hjem</a></li>
+        <li><a href="produkt.html" target="_self" class="active">Produktliste</a></li>
+      </ul>
+    </nav>
+
+    <a id="hamburger-nav" class="show">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+
+  </section>
+
+  ​<section class="tekst">
+    <h1>Min Sumo</h1>
+    <p>Senkveld</p>
+  </section>
+
+  <section class="bilde-stor">
+    <img id="pil-left" src="img/pil-left.png">
+    <img id="pil-right" src="img/pil-right.png">
+    <img id="1" src="img/aurora_album.jpg" alt="produktbilde av produkt 1">
+    <img id="2" src="img/aurora_album2.jpg" alt="produktbilde av produkt 2">
+  </section>
+
+  <section class="tekst">
+    <h2>Aurora</h2>
+    <p>Running with the wolves</p>
+    <p>Pris : 35,-</p>
+    <a href="interaktiv.html">Tilbake</a>
+    <button class="kjopknappprodukt">KJØP NÅ</button>
+  </section>
+
+</body>
+
+</html>
