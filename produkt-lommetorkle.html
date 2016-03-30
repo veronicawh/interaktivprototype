@@ -13,44 +13,57 @@
     $(".kjopknappprodukt").click(function () {
       alert("Denne funksjonen er ikke støttet enda. Prøv igjen senere");
     });
-});
-
-//pil til venstre
-$(document).ready(function () {
-  $("#2").hide();
-  $("#pil-left").click(function () {
-    $("#1").hide();
-    $("#2").show();
   });
-});
 
-//pil til høgre
-$(document).ready(function () {
-  $("#pil-right").click(function () {
-    $("#1").show();
+  //funksjon for å vise at ting blir lagt til i huskelista
+  $(document).ready(function () {
+    $("#detskjer1").hide();
+
+    $("#før1").click(function () {
+      $("#før1").hide();
+      $("#detskjer1").fadeIn();
+    });
+  });
+
+  //pil til venstre
+  $(document).ready(function () {
     $("#2").hide();
+    $("#pil-left").click(function () {
+      $("#1").hide();
+      $("#2").show();
+    });
   });
-});
-//meny fiksing
-$(document).ready(function () {
-  $(".container").hide();
 
-  $("#hamburger-nav").click(function () {
-    $(".container").toggle();
+  //pil til høgre
+  $(document).ready(function () {
+    $("#pil-right").click(function () {
+      $("#1").show();
+      $("#2").hide();
+    });
   });
-});
+  //meny fiksing
+  $(document).ready(function () {
+    $(".container").hide();
 
-
+    $("#hamburger-nav").click(function () {
+      $(".container").toggle();
+    });
+  });
 </script>
+
 <body>
   <section id="head">
     <img id="logo" src="img/tv2sumo.png" alt="tv sumo logo">
 
     <!--Hamburgermeny -->
     <nav class="container">
-    <ul class="mobile-nav">
-        <li><a href="interaktiv.html" target="_self" class="active">Hjem</a></li>
-        <li><a href="produkt.html" target="_self" class="active">Produktliste</a></li>
+      <ul class="mobile-nav">
+        <li>
+          <a href="interaktiv.html" target="_self" class="active">Hjem</a>
+        </li>
+        <li>
+          <a href="produkt.html" target="_self" class="active">Produktliste</a>
+        </li>
       </ul>
     </nav>
 
@@ -59,12 +72,15 @@ $(document).ready(function () {
       <span></span>
       <span></span>
     </a>
-
   </section>
 
-  ​<section class="tekst">
-    <h1>Min Sumo</h1>
-    <p>Senkveld</p>
+  <section id="tilbakeknapp">
+    <a href="interaktiv.html">Tilbake</a>
+  </section>
+
+  ​<section class="overskrift">
+    <h1>Nelly Man</h1>
+    <p>Senkveld sesong 26</p>
   </section>
 
   <section class="bilde-stor">
@@ -75,12 +91,24 @@ $(document).ready(function () {
   </section>
 
   <section class="tekst">
-    <h2>Lommetørkle</h2>
+    <!--  <h2>Lommetørkle</h2>-->
     <p>Lommetørkle i 100% silke</p>
-    <p>Blått med pasely pattern - Navy</p>
-    <p>Pris: 489,-</p>
-    <a href="interaktiv.html">Tilbake</a>
-    <button class="kjopknappprodukt">KJØP NÅ</button>
+    <p>Pasely mønster - Navy</p>
+    <!--  <p>Pris: 489,-</p>-->
+
+    <!--  <button class="kjopknappprodukt">KJØP NÅ</button>-->
+  </section>
+
+  <section id="bildeknapperprod2">
+    <section class="knapperprod2">
+      <h3>Total pris:</h3>
+      <p>
+        489 NOK</p>
+      <br>
+      <button class="kjopknappprodukt">KJØP NÅ</button>
+      <img class="huskeliste" id="før1" src="img/huskeliste.png" alt="huskeliste">
+      <img class="huskeliste" id="detskjer1" src="img/huskeliste-detskjer.png" alt="detskjer">
+    </section>
   </section>
 
 </body>

@@ -95,18 +95,18 @@ header a {
   float: left;
   width: 90%;
   padding: 19px;
-  height: 150px;
-  margin-top: 10px;
+  height: 135px;
+  /*margin-top: 10px;*/
   border-bottom-style: dotted;
   border-width: medium;
   border-color: #B5B0B0;
 }
-
-#aurora{
-  margin-top:7%;
+#aurora {
+  margin-top: 7%;
 }
 
 /*.produktliste p*/
+
 #infotekst {
   font-family: Helvetica;
   padding-left: 38%;
@@ -156,32 +156,39 @@ table, td {
 }
 td {
   padding: 16px;
-
 }
 .bilder, .bilderm {
   width: 25%;
   border: solid 15px #FFF;
   border-radius: 6px;
 }
-.bilderm {
+
+/*.bilderm {
   margin-top: 11px;
-}
-.knapperprod {
+}*/
+.knapperprod1, .knapperprod2 {
   float: right;
   width: 47%;
   padding: 10px;
+}
+.knaperprod1{
   margin-top: 30px;
 }
+/*.knapperprod2{
+  margin-top: 20px;
+}*/
 .tabellvenstre {
   float: left;
   width: 47%;
   padding: 10px;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   text-align: center;
 }
-
-#bildeknapperprod {
+#bildeknapperprod1 {
   margin-top: -55%;
+  margin-left: 10%;
+}
+#bildeknapperprod2{
   margin-left: 10%;
 }
 

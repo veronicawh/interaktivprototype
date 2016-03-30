@@ -25,6 +25,15 @@
     });
   });
 
+  //pil til høgre
+  $(document).ready(function () {
+    $("#pil-right").click(function () {
+      $("#1").show();
+      $("#2").hide();
+    });
+  });
+
+
   //pil til venstre
   $(document).ready(function () {
     $("#2").hide();
@@ -34,13 +43,6 @@
     });
   });
 
-  //pil til høgre
-  $(document).ready(function () {
-    $("#pil-right").click(function () {
-      $("#1").show();
-      $("#2").hide();
-    });
-  });
   //meny fiksing
   $(document).ready(function () {
     $(".container").hide();
@@ -71,7 +73,6 @@
       <span></span>
       <span></span>
     </a>
-
   </section>
 
   <section id="tilbakeknapp">
@@ -79,20 +80,21 @@
   </section>
 
   ​<section class="overskrift">
-    <h1>Nelly Man</h1>
+    <h1>NLY Man</h1>
     <p>Senkveld sesong 26</p>
   </section>
 
   <section class="bilde-stor">
     <img id="pil-left" src="img/pil-left.png">
     <img id="pil-right" src="img/pil-right.png">
-    <img id="1" src="img/skjorte_blaa.jpg" alt="produktbilde av produkt 1">
+    <img id="1" src="img/skjorte_blaa1.jpg" alt="produktbilde av produkt 1">
     <img id="2" src="img/skjorte_blaa_close.jpg" alt="produktbilde av produkt 2">
+  <!--  <img id="3" src="img/skjorte_blaa2.jpg" alt="produktbilde av produkt 3">-->
   </section>
 
   <section class="tekst">
     <!--<h2>Nelly Man</h2>-->
-    <p>Slim Fit Oxford Shirt</p>
+    <h3>Slim Fit Oxford Shirt</h3>
     <p>Enkeltfargede skjorter - Navy</p>
     <!--  <p>Pris: 299,-</p>-->
     <!--  <a href="interaktiv.html">Tilbake</a>-->
@@ -116,8 +118,8 @@
     </table>
   </section>
 
-  <section id="bildeknapperprod">
-    <section class="knapperprod">
+  <section id="bildeknapperprod1">
+    <section class="knapperprod1">
       <h3>Total pris:</h3>
       <p>
         299 NOK</p>
