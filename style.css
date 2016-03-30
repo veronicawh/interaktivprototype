@@ -101,12 +101,12 @@ header a {
   border-width: medium;
   border-color: #B5B0B0;
 }
-#aurora .produktliste {
-  padding-top: 27px;
+
+#aurora{
+  margin-top:7%;
 }
 
 /*.produktliste p*/
-
 #infotekst {
   font-family: Helvetica;
   padding-left: 38%;
@@ -152,11 +152,11 @@ header a {
 table, td {
   border: 1px solid black;
   border-collapse: collapse;
-  margin-left: 35px;
+  margin-left: 41px;
 }
 td {
-  padding: 20px;
-  height: 5px;
+  padding: 16px;
+
 }
 .bilder, .bilderm {
   width: 25%;
@@ -170,7 +170,7 @@ td {
   float: right;
   width: 47%;
   padding: 10px;
-  margin-top: 42px;
+  margin-top: 30px;
 }
 .tabellvenstre {
   float: left;
@@ -179,6 +179,7 @@ td {
   margin-top: 10px;
   text-align: center;
 }
+
 #bildeknapperprod {
   margin-top: -55%;
   margin-left: 10%;
